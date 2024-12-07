@@ -1,0 +1,7 @@
+if response.status_code == 201:
+    print(f"Repository '{repo_name}' created successfully!")
+else:
+    print(f"Failed to create repository. Status code: {response.status_code}")
+    print(response.json())
+
+    failed mum gene found
